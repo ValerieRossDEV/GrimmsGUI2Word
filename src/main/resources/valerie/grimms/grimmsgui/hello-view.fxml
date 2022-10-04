@@ -13,13 +13,13 @@
 
     <TextFlow prefHeight="5.0" prefWidth="408.0" textAlignment="CENTER"> <Label fx:id="welcomeText" alignment="CENTER" prefHeight="43.0" prefWidth="408.0" style="-fx-font-weight: bold" text="This is a project based on the fairy tales of the German Grimm Brothers." textAlignment="CENTER" /> </TextFlow>
    <Label alignment="CENTER" text="Select a fairy tale. This will generate a Word document with the story's text:" textAlignment="CENTER" />
-   <RadioButton id="theFrogKing" mnemonicParsing="false" onAction="#onFrogKingClick" prefHeight="18.0" prefWidth="121.0" text="The Frog King">
+   <RadioButton id="frogKing" fx:id="frogKing" mnemonicParsing="false" onAction="#onFrogKingClick" prefHeight="18.0" prefWidth="121.0" text="The Frog King">
       <toggleGroup>
          <ToggleGroup fx:id="group1" />
       </toggleGroup>
       <VBox.margin>
          <Insets />
       </VBox.margin></RadioButton>
-   <RadioButton id="rapunzel" layoutX="160.0" layoutY="68.0" mnemonicParsing="false" onAction="#onRapunzelClick" prefHeight="18.0" prefWidth="122.0" text="Rapunzel" toggleGroup="$group1" />
-   <RadioButton id="hanselAndGretel" layoutX="188.0" layoutY="106.0" mnemonicParsing="false" onAction="#onHanselAndGretelClick" prefHeight="18.0" prefWidth="126.0" text="Hansel and Gretel" toggleGroup="$group1" />
+   <RadioButton id="rapunzel" fx:id="rapunzel" layoutX="160.0" layoutY="68.0" mnemonicParsing="false" onAction="#onRapunzelClick" prefHeight="18.0" prefWidth="122.0" text="Rapunzel" toggleGroup="$group1" />
+   <RadioButton id="hanselAndGretel" fx:id="hanselAndGretel" layoutX="188.0" layoutY="106.0" mnemonicParsing="false" onAction="#onHanselAndGretelClick" prefHeight="18.0" prefWidth="126.0" text="Hansel and Gretel" toggleGroup="$group1" />
 </VBox>

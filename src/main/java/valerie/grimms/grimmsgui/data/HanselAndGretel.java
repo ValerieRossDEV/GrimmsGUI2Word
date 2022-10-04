@@ -2,7 +2,7 @@ package valerie.grimms.grimmsgui.data;
 
 public class HanselAndGretel {
 
-    private String text;
-    private String title;
-    private String author;
+    public static String text;
+    public static String title;
+    public static String author;
 }
