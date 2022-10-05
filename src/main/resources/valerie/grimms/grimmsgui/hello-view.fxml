@@ -12,7 +12,7 @@
 
 
     <TextFlow prefHeight="5.0" prefWidth="408.0" textAlignment="CENTER"> <Label fx:id="welcomeText" alignment="CENTER" prefHeight="43.0" prefWidth="408.0" style="-fx-font-weight: bold" text="This is a project based on the fairy tales of the German Grimm Brothers." textAlignment="CENTER" /> </TextFlow>
-   <Label fx:id="labelInstructions" alignment="CENTER" text="Select a fairy tale. This will generate a Word document with the story's text:" textAlignment="CENTER" />
+   <Label fx:id="labelInstructions" alignment="CENTER" text="Select a fairy tale. This will generate and open a Word document with the story's text:" textAlignment="CENTER" />
    <RadioButton id="frogKing" fx:id="frogKing" mnemonicParsing="false" onAction="#onFrogKingClick" prefHeight="18.0" prefWidth="121.0" text="The Frog King">
       <toggleGroup>
          <ToggleGroup fx:id="group1" />
