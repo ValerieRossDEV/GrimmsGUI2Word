@@ -2,8 +2,9 @@ package valerie.grimms.grimmsgui.data;
 
 public final class TheFrogKing {
 
-    public static String title;
-    public static String author;
+
+    public static String title ="The Frog King";
+    public static String author ="Grimm Brothers";
 
     private static String text ="In olden times, when wishing still did some good, there lived a king whose daughters were all beautiful, but the youngest was so beautiful that the sun itself, who, indeed, has seen so much, marveled every time it shone upon her face. In the vicinity of the king's castle there was a large, dark forest, and in this forest, beneath an old linden tree, there was a well. In the heat of the day the princess would go out into the forest and sit on the edge of the cool well. To pass the time she would take a golden ball, throw it into the air, and then catch it. It was her favorite plaything.\n" +
             "\n" +
@@ -76,6 +77,12 @@ public final class TheFrogKing {
         return text;
     }
 
+    public static String getTitle() {
+        return title;
+    }
 
+    public static String getAuthor() {
+        return author;
+    }
 
 }

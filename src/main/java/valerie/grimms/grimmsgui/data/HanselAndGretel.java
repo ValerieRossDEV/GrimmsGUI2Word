@@ -2,8 +2,11 @@ package valerie.grimms.grimmsgui.data;
 
 public final class HanselAndGretel {
 
-    public static String title;
-    public static String author;
+
+    public static String title = "Hansel and Gretel";
+
+
+    public static String author = "Grimm Brothers";
 
     private static String text =" Next to a great forest there lived a poor woodcutter with his wife and his two children. The boy's name was Hansel and the girl's name was Gretel. He had but little to eat, and once, when a great famine came to the land, he could no longer provide even their daily bread.\n" +
             "\n" +
@@ -169,5 +172,12 @@ public final class HanselAndGretel {
         return text;
     }
 
+    public static String getTitle() {
+        return title;
+    }
+
+    public static String getAuthor() {
+        return author;
+    }
 
 }

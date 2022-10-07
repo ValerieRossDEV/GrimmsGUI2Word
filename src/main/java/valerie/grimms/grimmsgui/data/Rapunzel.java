@@ -2,8 +2,9 @@ package valerie.grimms.grimmsgui.data;
 
 public final class Rapunzel {
 
-    public static String title;
-    public static String author;
+
+    public static String title ="Rapunzel";
+    public static String author = "Grimm Brothers";
     private static String text = "Once upon a time there was a man and a woman who had long, but to no avail, wished for a child. Finally the woman came to believe that the good Lord would fulfill her wish. Through the small rear window of these people's house they could see into a splendid garden that was filled with the most beautiful flowers and herbs. The garden was surrounded by a high wall, and no one dared enter, because it belonged to a sorceress who possessed great power and was feared by everyone.\n" +
             "\n" +
             "One day the woman was standing at this window, and she saw a bed planted with the most beautiful rapunzel. It looked so fresh and green that she longed for some. It was her greatest desire to eat some of the rapunzel. This desire increased with every day, and not knowing how to get any, she became miserably ill.\n" +
@@ -72,6 +73,12 @@ public final class Rapunzel {
         return text;
     }
 
+    public static String getTitle() {
+        return title;
+    }
 
+    public static String getAuthor() {
+        return author;
+    }
 
 }
