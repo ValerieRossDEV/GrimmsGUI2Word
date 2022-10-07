@@ -75,7 +75,6 @@ public class GrimmsController {
             //third paragraph - passing the text of the fairy tale
 
             XWPFParagraph p3 = doc.createParagraph();
-            //p3.setAlignment(ParagraphAlignment.CENTER);
             p3.setBorderBottom(Borders.SINGLE);
             p3.setVerticalAlignment(TextAlignment.CENTER );
             p3.setIndentationFirstLine(3);
