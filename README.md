@@ -12,4 +12,4 @@ With every new selection the generated document will be overwritten. If you want
 **Credits** for the fairy tale inputs: 
 [D. L. Ashliman, 1998 - 2020](https://sites.pitt.edu/~dash/grimmtales.html).
 
-Project implemented with Apache POI & JavaFX libraries
+Project implemented with Apache POI & JavaFX libraries.
