@@ -9,10 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class HanselAndGretelTest {
 
 
-    @Test
-    void getText() {
 
-    }
 
     @Test
     void getTitle() {

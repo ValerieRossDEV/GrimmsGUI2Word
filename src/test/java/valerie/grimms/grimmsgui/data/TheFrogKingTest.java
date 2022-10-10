@@ -9,9 +9,6 @@ import static org.junit.jupiter.api.Assertions.*;
 class TheFrogKingTest {
 
 
-    @Test
-    void getText() {
-    }
 
     @Test
     void getTitle() {

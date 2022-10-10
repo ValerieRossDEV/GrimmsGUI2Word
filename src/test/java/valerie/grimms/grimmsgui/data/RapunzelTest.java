@@ -8,9 +8,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class RapunzelTest {
 
-    @Test
-    void getText() {
-    }
 
     @Test
     void getTitle() {
